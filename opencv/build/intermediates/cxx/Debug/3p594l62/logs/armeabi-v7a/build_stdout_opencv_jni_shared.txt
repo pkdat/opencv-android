@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\Code\AndroidStudioProjects\VideoEditing\opencv\.cxx\Debug\3p594l62\armeabi-v7a'
+ninja: no work to do.

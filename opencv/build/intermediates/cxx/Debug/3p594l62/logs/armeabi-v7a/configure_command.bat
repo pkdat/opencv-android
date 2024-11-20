@@ -1,0 +1,19 @@
+@echo off
+"C:\\Users\\pkdat\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HD:\\Code\\AndroidStudioProjects\\VideoEditing\\opencv\\libcxx_helper" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=27" ^
+  "-DANDROID_PLATFORM=android-27" ^
+  "-DANDROID_ABI=armeabi-v7a" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a" ^
+  "-DANDROID_NDK=C:\\Users\\pkdat\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125" ^
+  "-DCMAKE_ANDROID_NDK=C:\\Users\\pkdat\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125" ^
+  "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\pkdat\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=C:\\Users\\pkdat\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\\Code\\AndroidStudioProjects\\VideoEditing\\opencv\\build\\intermediates\\cxx\\Debug\\3p594l62\\obj\\armeabi-v7a" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\\Code\\AndroidStudioProjects\\VideoEditing\\opencv\\build\\intermediates\\cxx\\Debug\\3p594l62\\obj\\armeabi-v7a" ^
+  "-DCMAKE_BUILD_TYPE=Debug" ^
+  "-BD:\\Code\\AndroidStudioProjects\\VideoEditing\\opencv\\.cxx\\Debug\\3p594l62\\armeabi-v7a" ^
+  -GNinja ^
+  "-DANDROID_STL=c++_shared"
